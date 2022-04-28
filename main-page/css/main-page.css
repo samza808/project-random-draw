@@ -1,1 +1,166 @@
-/* No CSS *//*# sourceMappingURL=main-page.css.map */
+#base > .root > .guide {
+  width: 92%;
+  height: 358px;
+  border: 1px solid blue;
+  position: absolute;
+  z-index: 2;
+}
+
+#base > .root > .guide > .main-gacha {
+  width: 70%;
+  height: 100%;
+  background-color: aquamarine;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+#base > .root > .guide > .main-gacha > div:nth-child(1) {
+  width: 100%;
+  height: 28%;
+  border: 1px solid red;
+  position: absolute;
+  z-index: 3;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#base > .root > .guide > .main-gacha > div:nth-child(1) > div {
+  width: 66%;
+  height: 100%;
+  border: 1px solid #ecce23;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#base > .root > .guide > .main-gacha > div:nth-child(1) > div > div {
+  width: 40%;
+  height: 80%;
+  background-color: #0e5f92;
+  border-radius: 10px;
+}
+
+#base > .root > .guide > .main-gacha > div:nth-child(1) > div > .gch-btn-2 {
+  background-color: #1c8235;
+}
+
+#base > .root > .guide > .main-gacha > div:nth-child(2) {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  display: flex;
+}
+
+#base > .root > .guide > .main-gacha > div:nth-child(2) > .move-arrow {
+  width: 12%;
+  height: 100%;
+  border: 1px solid #0e5f92;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#base > .root > .guide > .main-gacha > div:nth-child(2) > .move-arrow > div {
+  width: 70%;
+  height: 60%;
+  background-color: #ffc12f;
+}
+
+#base > .root > .guide > .main-gacha > div:nth-child(2) > div:nth-child(3) {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#base > .root > .guide > .main-gacha > div:nth-child(2) > div:nth-child(3) > div {
+  background-color: #ff2f66;
+}
+
+#base > .root > .guide > .main-gacha > div:nth-child(2) > div:nth-child(2) {
+  width: 66%;
+  height: 100%;
+  border: 1px solid salmon;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#base > .root > .guide > .main-gacha > div:nth-child(2) > div:nth-child(2) > .main-gch-object {
+  width: 60%;
+  height: 64%;
+  border: 1px solid #3d2fff;
+  border-radius: 100%;
+}
+
+#base > .root > .bgone {
+  width: 96%;
+  height: 100%;
+  border: 1px solid red;
+  position: relative;
+  background-color: #ac81e4;
+  z-index: 0;
+  left: -10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#base > .root > .bgone > .book-paper {
+  width: 84%;
+  height: 100%;
+  border: 1px solid #ffc12f;
+  position: relative;
+  z-index: 1;
+}
+
+#base > .root > .bgone > .side-menu {
+  width: 18%;
+  height: 80%;
+  background-color: #1c8235;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+/*# sourceMappingURL=main-page.css.map */
