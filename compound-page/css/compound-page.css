@@ -1,1 +1,124 @@
-/*# sourceMappingURL=compound-page.css.map */
+.item-guide::-webkit-scrollbar {
+  width: 10px;
+}
+
+.item-guide::-webkit-scrollbar-thumb {
+  background-color: #2f3542;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+
+.item-guide::-webkit-scrollbar-track {
+  background-color: rgba(46, 50, 49, 0.5);
+}
+
+#base > .root {
+  align-items: flex-end;
+}
+#base > .root > .guide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#base > .root > .guide > .storage {
+  width: 57%;
+  height: 100%;
+  border: 1px solid salmon;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#base > .root > .guide > .storage > div:nth-child(1) {
+  width: 100%;
+  height: 20%;
+  border: 1px solid green;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#base > .root > .guide > .storage > div:nth-child(1) > div:nth-child(1) {
+  width: 23%;
+  height: 100%;
+  border: 1px solid #f04ebf;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#base > .root > .guide > .storage > div:nth-child(1) > div:nth-child(1) > .all-bnt {
+  width: 76%;
+  height: 80%;
+  background-color: #30ffff;
+}
+#base > .root > .guide > .storage > div:nth-child(1) > div:nth-child(2) {
+  width: 68%;
+  height: 100%;
+  border: 1px solid #ffd930;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#base > .root > .guide > .storage > div:nth-child(2) {
+  width: 98%;
+  height: 74%;
+  border: 1px solid #6ddaf5;
+  background-color: #6ddaf5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#base > .root > .guide > .storage > div:nth-child(2) > .item-guide {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+#base > .root > .guide > .storage > div:nth-child(2) > .item-guide > li {
+  list-style: none;
+  background-color: #3d7583;
+  margin-bottom: 12px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+#base > .root > .guide > .compound-window {
+  width: 43%;
+  height: 100%;
+  border: 1px solid greenyellow;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#base > .root > .guide > .compound-window > div {
+  width: 90%;
+  height: 80%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#base > .root > .guide > .compound-window > div > div:nth-child(1) {
+  width: 100%;
+  height: 44%;
+  border: 1px solid salmon;
+}
+#base > .root > .guide > .compound-window > div > .compound-bnt {
+  width: 100%;
+  height: 56%;
+  border: 1px solid #116392;
+}
+#base > .root > .bg-paper {
+  width: 56%;
+  height: 380px;
+  position: relative;
+  background-color: #ac81e4;
+  z-index: 0;
+  left: -22%;
+  display: flex;
+}/*# sourceMappingURL=compound-page.css.map */

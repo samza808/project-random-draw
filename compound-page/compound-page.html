@@ -12,5 +12,110 @@
 </head>
 <body>
   
+  <div id="base">
+    <div class="root">
+
+      <div class="guide">
+
+        <div class="storage">
+          <div>
+            <div>
+              <div class="all-bnt"></div>
+            </div>
+
+            <div class="filter">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+
+          <div>
+            <ul class="item-guide">
+
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <!-- 언젠가는 js에서 for값으로 바꿔줄것 -->
+              
+            </ul>
+          </div>
+        </div>
+
+        <div class="compound-window">
+          <div>
+            <div></div>
+
+            <div class="compound-bnt"></div>
+          </div>
+        </div>
+
+      </div>
+
+        <div class="bg-paper"></div>
+
+    </div>
+  </div>
+  
+
+  <script>
+
+    const filter = document.getElementsByClassName('filter');
+    console.dir(filter);
+
+    for(let filterBnt = 0; filterBnt < filter[0].children.length; filterBnt++) {
+      filter[0].children[filterBnt].style.width = '17%';
+      filter[0].children[filterBnt].style.height = '80%';
+      filter[0].children[filterBnt].style.backgroundColor = '#f04ebf';
+
+      if(filterBnt === 1) {
+        filter[0].children[filterBnt].style.backgroundColor = '#4d7bf3';
+      }
+
+      if(filterBnt === 2) {
+        filter[0].children[filterBnt].style.backgroundColor = '#f7d47e';
+      }
+
+      if(filterBnt === 3) {
+        filter[0].children[filterBnt].style.backgroundColor = '#bd9a43';
+      }
+
+      if(filterBnt === 4) {
+        filter[0].children[filterBnt].style.backgroundColor = '#c67f63';
+      }
+    }
+    //
+
+    const itemGuide = document.getElementsByClassName('item-guide');
+    console.dir(itemGuide);
+    
+    let itemLiWidth = '84px';
+    let itemLiHeight = '106px';
+
+    for(let itemLi = 0; itemLi < itemGuide[0].children.length; itemLi++) {
+      itemGuide[0].children[itemLi].style.width =`${itemLiWidth}`;
+      itemGuide[0].children[itemLi].style.height =`${itemLiHeight}`;
+    }
+
+  </script>
+
 </body>
-</html>
+</html>                                                                                                                                     

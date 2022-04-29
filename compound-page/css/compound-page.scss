@@ -1,0 +1,147 @@
+.item-guide::-webkit-scrollbar {
+  width: 10px;
+}
+
+.item-guide::-webkit-scrollbar-thumb {
+  background-color: #2f3542;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+
+.item-guide::-webkit-scrollbar-track {
+  background-color: rgba(46, 50, 49, 0.5);
+}
+
+
+#base {
+
+  & > .root {
+    align-items: flex-end;
+  
+    & > .guide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      & > .storage {
+        width: 57%;
+        height: 100%;
+        border: 1px solid salmon;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+
+        & > div:nth-child(1) {
+          width: 100%;
+          height: 20%;
+          border: 1px solid green;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+
+          & > div:nth-child(1) {
+            width: 23%;
+            height: 100%;
+            border: 1px solid #f04ebf;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            & > .all-bnt {
+              width: 76%;
+              height: 80%;
+              background-color: #30ffff;
+            }
+          }
+
+          & > div:nth-child(2) {
+            width: 68%;
+            height: 100%;
+            border: 1px solid #ffd930;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+        }
+
+        & > div:nth-child(2) {
+          width: 98%;
+          height: 74%;
+          border: 1px solid #6ddaf5;
+          background-color: #6ddaf5;
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+
+          & > .item-guide {
+            width: 100%;
+            height: 100%;
+            border: 1px solid black;
+            display: flex;
+            justify-content: flex-start;
+            // justify-content: space-evenly;
+            // ↑ 이 속성으로 정리를 하면 맨 밑에남는 아이템이 정 가운데로 가버려서 안 예뻐짐.. 이걸 넣으면 flex-start도 안먹고.. 억지로 아이템 자체에 마진값을 넣어서 정렬했는데 이래도 되나.... 
+            align-items: flex-start;
+            flex-wrap: wrap;
+            overflow: scroll;
+            overflow-x: hidden;
+            
+            & > li {
+              list-style: none;
+              background-color: #3d7583;
+              margin-bottom: 12px;
+              margin-left: 3px;
+              margin-right: 3px;
+            }
+
+          }
+        }
+      }
+
+      & > .compound-window {
+        width: 43%;
+        height: 100%;
+        border: 1px solid greenyellow;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        & > div {
+          width: 90%;
+          height: 80%;
+          border: 1px solid black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+
+          & > div:nth-child(1) {
+            width: 100%;
+            height: 44%;
+            border: 1px solid salmon;
+          }
+
+          & > .compound-bnt {
+            width: 100%;
+            height: 56%;
+            border: 1px solid #116392;
+          }
+        }
+      }
+      
+    }
+
+    & > .bg-paper {
+      width: 56%;
+      height: 380px;
+      // border: 1px solid red;
+      position: relative;
+      background-color: #ac81e4;
+      z-index: 0;
+      left: -22%;
+      display: flex;
+    }
+  }
+}

@@ -1,13 +1,6 @@
 #base > .root {
   align-items: flex-end;
 }
-#base > .root > .guide {
-  width: 92%;
-  height: 358px;
-  border: 1px solid blue;
-  position: absolute;
-  z-index: 2;
-}
 #base > .root > .guide > .main-gacha {
   width: 70%;
   height: 100%;

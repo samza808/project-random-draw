@@ -6,11 +6,6 @@
     align-items: flex-end;
 
     & > .guide {
-      width: 92%;
-      height: 358px; // 상단바 높이 60px, 10px마진남기기 위해 그리드 전체화면 높이 - 70px (나중에 js로 전체제어 생각해볼것)
-      border: 1px solid blue;
-      position: absolute;
-      z-index: 2;
       
       & > .main-gacha {
         width: 70%;

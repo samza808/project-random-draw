@@ -17,3 +17,11 @@
   position: relative;
   overflow: hidden;
 }
+
+.guide {
+  width: 92%;
+  height: 358px;
+  border: 1px solid blue;
+  position: absolute;
+  z-index: 2;
+}
