@@ -62,9 +62,15 @@
 
         <div class="compound-window">
           <div>
-            <div></div>
+            <div class="compound-window-item">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
 
-            <div class="compound-bnt"></div>
+            <div class="compound-bnt">
+              <div></div>
+            </div>
           </div>
         </div>
 
@@ -114,6 +120,20 @@
       itemGuide[0].children[itemLi].style.width =`${itemLiWidth}`;
       itemGuide[0].children[itemLi].style.height =`${itemLiHeight}`;
     }
+
+    //
+
+    const compoundWindow = document.getElementsByClassName('compound-window-item');
+    console.dir(compoundWindow);
+
+    for(let compoundItem = 0; compoundItem < compoundWindow[0].children.length; compoundItem++) {
+
+      compoundWindow[0].children[compoundItem].style.width =`${itemLiWidth}`;
+      compoundWindow[0].children[compoundItem].style.height =`${itemLiHeight}`;
+      compoundWindow[0].children[compoundItem].style.backgroundColor = '#4d7bf3';
+    }
+
+    // const compoundItem = compoundWindow[0].children
 
   </script>
 

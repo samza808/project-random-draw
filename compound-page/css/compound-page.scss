@@ -117,16 +117,29 @@
           align-items: center;
           flex-direction: column;
 
-          & > div:nth-child(1) {
+          & > .compound-window-item {
             width: 100%;
             height: 44%;
             border: 1px solid salmon;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
           }
 
           & > .compound-bnt {
             width: 100%;
             height: 56%;
             border: 1px solid #116392;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+
+            & > div {
+              width: 34%;
+              height: 70%;
+              background-color: #30ffff;
+              border-radius: 100%;
+            }
           }
         }
       }
