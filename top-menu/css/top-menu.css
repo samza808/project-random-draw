@@ -70,6 +70,14 @@
   position: absolute;
   z-index: 1;
   right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#base > .root > .top-menu > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(2) > div {
+  width: 80%;
+  height: 86%;
+  border: 1px solid #48ff00;
 }
 #base > .root > .top-menu > div > div:nth-child(2) > div:nth-child(2) {
   width: 10%;

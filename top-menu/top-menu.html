@@ -27,12 +27,16 @@
             <div>
               <div>
                 <div class="wealth-icon-1"></div>
-                <div class="wealth-bar"></div>
+                <div class="wealth-bar">
+                  <div class="wealth-value-1"></div>
+                </div>
               </div>
 
               <div>
                 <div class="wealth-icon-2"></div>
-                <div class="wealth-bar"></div>
+                <div class="wealth-bar">
+                  <div class="wealth-value-2"></div>
+                </div>
               </div>
             </div>
 
@@ -49,7 +53,17 @@
 
     const wealthIconOne = document.getElementsByClassName('wealth-icon-1');
     console.dir(wealthIconOne);
-    
+    wealthIconOne[0].style.backgroundColor = '#94dbb4';
+//
+    const wealthIconTwo = document.getElementsByClassName('wealth-icon-2');
+    console.dir(wealthIconTwo);
+//
+    const wealthValueOne = document.getElementsByClassName('wealth-value-1');
+    console.dir(wealthValueOne);
+    wealthValueOne[0].style.border = '1px solid red';
+//
+    const wealthValueTwo = document.getElementsByClassName('wealth-value-2');
+    console.dir(wealthValueTwo);
   </script>
 </body>
 </html>
